@@ -3,7 +3,7 @@ var bio = {
     'name': 'Jane Claire',
     'role': 'Front-end Development',
     'contacts': {
-        'mobile': 'please contact me via email',
+        'mobile': 'please initiate contact with me via email',
         'email': 'jdotcdot@hotmail.com',
         'github': 'github.com/pixiephreak',
         'twitter': '@StreetSignsLife',
@@ -17,7 +17,7 @@ var bio = {
 
 
     },
-    'welcomeMessage': 'I have a background in visual art and design, which has motivated me to learn more about front-end development, human/computer interaction, and technology.',
+    'welcomeMessage': 'I am a new media and interdisciplinary visual artist with a background in sociology. I am skilled in graphic design, web art, and am currently expanding my front end development skills.',
     'skills': [
         'Project Management',
         'Instruction', 'Graphic Design',
@@ -72,7 +72,7 @@ var work = {
         'description': 'Assistant to designer Christopher Bu. Translated designs into digital files for use in production, specializing in surface design using Adobe Illustrator, locating digital assets, and art historical research.'
     }, {
         'title': 'Visual Artist',
-        'employer': 'Freelance',
+        'employer': 'DC Commission on the Arts and Humanities Artist Fellow (2014, 2015)/ Freelance',
         'dates': 'August 2004-Present',
         'location': 'Varying',
         'description': 'Visual artist specializing in conceptual new media, performance, and installation work. Working at galleries and alternative spaces in the U.S. and abroad.'
@@ -93,18 +93,32 @@ var work = {
 
 var projects = {
     'projects': [{
-        'title': 'Project 1',
+        'title': 'Dynamic Resume',
         'dates': 'Fall 2016',
-        'description': 'Resume built using javascript to fill out html.',
-        'images': ['http://placehold.it/300x300', 'http://placehold.it/300x300']
+        'description': 'Resume built using javascript objects to populate html.',
+        'images': ['images/project1_a.png', 'images/project1_b.png']
 
     }, {
-        'title': 'Project 2',
+        'title': 'Frogger Arcade Game Clone',
         'dates': 'Fall 2016',
-        'description': 'Whatever the next project ends up being.',
-        'images': ['http://placehold.it/300x300', 'http://placehold.it/300x300']
+        'description': 'Use OOP principles to add interactivity to a clone of the Frogger arcade game.',
+        'images': ['images/project2_a.png', 'images/project2_b.png']
 
-    }]
+    },{
+        'title': 'Green My Screen',
+        'dates': 'Spring 2016',
+        'description': 'A conceptual app that turns any iOS screen solid green.',
+        'images': ['images/project3_a.jpg']
+
+    },{
+        'title': 'Fine Art Portfolio',
+        'dates': 'Spring 2016',
+        'description': 'Portfolio site built using Bootstrap.',
+        'images': ['images/project4_a.png', 'images/project4_b.png']
+
+    }
+
+    ]
 };
 
 // populate html with user bio info using a function
