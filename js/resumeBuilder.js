@@ -3,10 +3,10 @@ var bio = {
     'name': 'Jane Claire',
     'role': 'Front-end Development',
     'contacts': {
-        'mobile': '555-555-5555',
-        'email': 'xxxxxx@gmail.com',
+        'mobile': 'please contact me via email',
+        'email': 'jdotcdot@hotmail.com',
         'github': 'github.com/pixiephreak',
-        'twitter': '@xxxxx',
+        'twitter': '@StreetSignsLife',
         'location': 'Washington, D.C.',
         'phoneIcon': '<li class="flex-item"><span class="white-text"><i class="fa fa-phone" aria-hidden="true"></i></span></li>',
         'mailIcon': '<li class="flex-item"><span class="white-text"><i class="fa fa-envelope" aria-hidden="true"></i></span></li>',
