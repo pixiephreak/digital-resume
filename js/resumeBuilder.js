@@ -121,39 +121,6 @@ var projects = {
     ]
 };
 
-// populate html with user bio info using a function
-
-// function displayBio(){
-
-// 	var formattedName = HTMLheaderName.replace('%data%', bio.name);
-// 	var formattedRole = HTMLheaderRole.replace('%data%', bio.role);
-// 	var formattedWelcome = HTMLwelcomeMsg.replace('%data%', bio.welcomeMessage);
-// 	var formattedMobile = HTMLmobile.replace('%data%',bio.contacts.mobile);
-// 	var formattedEmail = HTMLemail.replace('%data%',bio.contacts.email);
-// 	var formattedGithub = HTMLgithub.replace('%data%',bio.contacts.github);
-// 	var formattedTwitter = HTMLtwitter.replace('%data%',bio.contacts.twitter);
-// 	var formattedLocation = HTMLlocation.replace('%data%',bio.contacts.location);
-// 	var formattedPic = HTMLbioPic.replace('%data%', bio.bioPic);
-
-
-// 	$('#header').prepend(formattedName, formattedRole, formattedPic, formattedMobile, formattedEmail, formattedGithub, formattedTwitter, formattedLocation, formattedWelcome);
-
-// 	//loop through skills array
-// 	if(bio.skills.length > 0){
-
-// 		$('#header').append(HTMLskillsStart);
-
-// 		for (var i=0; i<bio.skills.length-1; i++){
-// 			formattedSkill = HTMLskills.replace('%data%',bio.skills[i]);
-// 			$('#skills').append(formattedSkill);
-// 		}
-// 	}
-// };
-
-// displayBio();
-
-//Now, append that function to the bio object using encapsulation
-
 bio.display = function() {
 
     var formattedName = HTMLheaderName.replace('%data%', bio.name);

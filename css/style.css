@@ -109,6 +109,10 @@ a {
     display: block;
 }
 
+.project-entry p{
+  color: #fff;
+}
+
 #message {
     background-color: #008f95;
 }
@@ -148,7 +152,7 @@ a {
 }
 
 #projects {
-    background-color: #e9b000;
+    background-color: #00264d;
 }
 
 .flex-box {
@@ -220,9 +224,3 @@ ul {
     padding-bottom: 5%;
     background-color: #30415d;
 }
-
-
-
-
-
-
